@@ -1,6 +1,6 @@
 # Rename PayloadCMS Images
 
-This Go program renames image files stored in an AWS S3-compatible service (such as R2) and updates the file names in a MongoDB collection. It primarily ensures that the file names follow a consistent dash-separated format instead of containing spaces, underscores, or multiple dashes.
+This Go program renames image files stored in an AWS S3-compatible service and updates the file names in a MongoDB collection of PayloadCMS. It primarily ensures that the file names follow a consistent dash-separated format instead of containing spaces, underscores, or multiple dashes.
 
 ## Features
 - Connects to a MongoDB database to retrieve image metadata.
